@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project:To Build a Portfolio Site
 
 This Project has been done as a part of udacity full stack nanodegree program.The Following Skills/Specification have been Applied to Build a Project:
@@ -17,7 +16,3 @@ This Project has been done as a part of udacity full stack nanodegree program.Th
 1. HTML and CSS Formatting
 2. W3C Validator Test for Html and CSS
 3. Use of Semantic Tags
-
-=======
-# portfolio-site
->>>>>>> eb7fdae7ac718d20cee4611933b05b6a61ebecc6
