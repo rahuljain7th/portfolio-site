@@ -1,0 +1,137 @@
+body {
+  background-color: #FDF3E7;
+  color: #FDF3E7;
+  font-family: 'Open Sans',sans-serif,Arial;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #e5e5e5;
+}
+
+.headertext {
+  font-family: 'Anton',sans-serif;
+  font-size: 55px;
+}
+
+.headerbody {
+  font-family: 'La Belle Aurore',cursive;
+  font-size: 30px;
+}
+
+header,footer {
+  background-color: #C63D0F;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  color: #e5e5e5;
+  font-family: 'zocial',sans-serif;
+  font-size: 24px;
+}
+
+.headerrow {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.headerCol6 {
+  width: 50%;
+}
+
+.headerright {
+  margin-right: 13%;
+  text-align: right;
+  color: #FDF3E7;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+  margin-left: 13%;
+}
+
+.coverImage {
+  height: 400px;
+  width: 100%;
+}
+
+.skill-desc {
+  text-align: center;
+}
+
+.socialIcon {
+  margin-right: 20px;
+  padding-right: 10px;
+}
+
+.socialIcon:hover {
+  background: #333;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.socialIcon:focus {
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  padding-left: 10%;
+}
+
+#footer-text {
+  padding-left: 10%;
+  padding-top: 10px;
+  font-size: 18px;
+  color: #FDF3E7;
+}
+
+@media screen and (max-width:900px) {
+  .headertext {
+    font-size: 35px;
+  }
+
+  .headerbody {
+    font-size: 19px;
+  }
+
+  .featuredtext {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headertext {
+    font-size: 25px;
+  }
+
+  .headerbody {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .headertext {
+    font-size: 19px;
+  }
+}
